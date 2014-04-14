@@ -38,7 +38,7 @@ class TraversalControllerProvider implements ControllerProviderInterface
         $controllers = $app['controllers_factory'];
 
         $controllers
-            ->match($this->prefix.'{url}', 'App\TraversalController::dispatch')
+            ->match($this->prefix.'{url}', 'spanitz\Silex\TraversalController::dispatch')
             ->assert('url', '.*')
             ->value('prefix', $this->prefix);
 
