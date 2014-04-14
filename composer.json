@@ -1,0 +1,24 @@
+{
+    "name": "spanitz/silex-url-traversal",
+    "description": "Silex URL Traversal",
+    "keywords": ["silex", "url", "traversal"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan Panitz",
+            "email": "info@stefanpanitz.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "silex/silex": "1.2.0"
+    },
+    "autoload": {
+        "psr-0": { "spanitz": "src"}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
